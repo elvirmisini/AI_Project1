@@ -79,26 +79,6 @@ class SudokuBoard :
 
         return True
 
-    # def solveItNaive(self) : 
-    #     """
-    #     NAive Solution
-    #     Back Tracking
-    #     """
-    #     find_blank = self.is_Blank()
-
-    #     if find_blank is None : 
-    #         return True
-    #     else : 
-    #         row, col = find_blank
-    #     for i in range(1,10) :
-    #         if self.isValid(i, (row, col)) :
-    #             self.board[row][col] = i
-
-    #             if self.solveItNaive() : 
-    #                 return True
-    #             self.board[row][col] = 0
-    #     return False
-
     def graphColoringInitializeColor(self):
         """
         fill the already given colors
